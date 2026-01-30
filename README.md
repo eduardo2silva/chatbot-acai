@@ -5,7 +5,7 @@ Projeto desenvolvido para a disciplina de Projeto Integrado I do curso de Sistem
 ## Descrição
 Este projeto consiste no desenvolvimento de um chatbot para venda e pedidos de açaí, utilizando a ferramenta n8n para automação do fluxo de conversação e PostgreSQL como banco de dados.
 
-## Tecnologias Utilizadas
+## tecnologias Utilizadas
 - n8n
 - PostgreSQL
 - GitHub
