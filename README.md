@@ -1,4 +1,4 @@
-# Chatbot de Açaí 🍧
+# Chatbot de Açaí 
 
 Projeto desenvolvido para a disciplina de Projeto Integrado I do curso de Sistemas de Informação da UFPA – Campus Cametá.
 
