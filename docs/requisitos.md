@@ -26,7 +26,7 @@ Desta forma, os requisitos encontrados para o primeiro ciclo do projeto exemplif
 |	RF05 | Calcular valor total do pedido | Permitir que o sistema calcule automaticamente o valor total do pedido com base nos produtos selecionados. Esse requisito garante precisão nos valores informados ao cliente. |
 |	RF06 | Registrar pedido | Permitir que o sistema registre as informações do pedido no banco de dados, incluindo itens, valor total, endereço e forma de pagamento. Esse requisito é necessário para controle e rastreabilidade dos pedidos. |
 |	RF07 | Simular pagamento | Permitir que o sistema simule o processo de pagamento de acordo com a forma escolhida, exibindo mensagens pré-definidas para PIX ou Cartão. Esse requisito atende ao escopo acadêmico do projeto, sem integração real com serviços financeiros. |
-| RF08 | Notificar estabelecimento | Permitir que o sistema envie uma notificação ao dono do estabelecimento contendo os dados do pedido realizado. Esse requisito assegura que o pedido seja visualizado e preparado para entrega. |
+| RF08 | Notificar estabelecimento | Permitir que o sistema envie uma notificação por email ao dono do estabelecimento contendo os dados do pedido realizado. Esse requisito assegura que o pedido seja visualizado e preparado para entrega. |
 ## 3. Requisitos Não Funcionais (RNF)
 Os requisitos não funcionais definem as características de qualidade e as restrições do sistema, como desempenho, usabilidade, confiabilidade e tecnologias utilizadas. Esses requisitos não descrevem funcionalidades específicas, mas estabelecem como o sistema deve se comportar e quais padrões devem ser seguidos durante o seu funcionamento.
 | Código| Nome | Descrição |
