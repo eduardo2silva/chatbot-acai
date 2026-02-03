@@ -15,8 +15,8 @@
 - id_item
 - id_pedido(FK)
 - id_produto(FK)
-- quantidade
-- subtotal
+- Quantidade
+- Subtotal
 
 ## Relacionamento
 Um pedido pode conter um ou mais produtos.
