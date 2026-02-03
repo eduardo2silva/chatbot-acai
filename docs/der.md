@@ -7,11 +7,16 @@
 
 ## Entidade Pedido
 - id_pedido
-- itens
-- total
 - endereco
 - forma_pagamento
 - status
+
+## Entidade Item_Pedido
+- id_item
+- id_pedido(FK)
+- id_produto(FK)
+- quantidade
+- subtotal
 
 ## Relacionamento
 Um pedido pode conter um ou mais produtos.
