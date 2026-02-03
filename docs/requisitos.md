@@ -20,7 +20,7 @@ Desta forma, os requisitos encontrados para o primeiro ciclo do projeto exemplif
 | Código | Nome | Descrição |
 |---|--------|---------|
 |	RF01 | Exibir cardápio de produtos | Permitir que o sistema apresente ao usuário a lista de produtos disponíveis para venda, contendo nome e preço dos açaís. Esse requisito é essencial para que o cliente conheça as opções antes de realizar o pedido. |
-|	RF02 | selecionar produtos | Permitir que o usuário selecione um ou mais produtos do cardápio apresentado. Esse requisito é necessário para viabilizar a composição do pedido de acordo com a preferência do cliente. |
+|	RF02 | Escolher produtos | Permitir que o usuário selecione um ou mais produtos do cardápio apresentado. Esse requisito é necessário para viabilizar a composição do pedido de acordo com a preferência do cliente. |
 |	RF03 | Informar endereço de entrega | Permitir que o usuário informe o endereço onde o pedido deverá ser entregue. Esse requisito é fundamental para que o estabelecimento saiba para onde encaminhar o pedido. |
 |	RF04 | Escolher forma de pagamento | Permitir que o usuário escolha a forma de pagamento entre PIX ou Cartão. Esse requisito organiza o fluxo do pedido e define a simulação do pagamento a ser realizada pelo sistema. |
 |	RF05 | Calcular valor total do pedido | Permitir que o sistema calcule automaticamente o valor total do pedido com base nos produtos selecionados. Esse requisito garante precisão nos valores informados ao cliente. |
