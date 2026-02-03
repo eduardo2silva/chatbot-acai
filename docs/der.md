@@ -1,46 +1,88 @@
-# Diagrama Entidade-Relacionamento
+# Diagrama Entidade-Relacionamento (DER)
 
-## Entidade Produto
-- id_produto
+## Tabela Cliente
+- **id_cliente (PK)**
 - nome
-- preco
+- telefone
 
-## Entidade Pedido
-- id_pedido
+---
+
+## Tabela Pedido
+- **id_pedido (PK)**
+- **id_cliente (FK)**
 - endereco
 - forma_pagamento
 - status
 
-## Entidade Item_Pedido
-- id_item
-- id_pedido(FK)
-- id_produto(FK)
+**Relacionamento:**  
+Cliente (1) —— (N) Pedido  
+Pedido.id_cliente → Cliente.id_cliente
+
+---
+
+## Tabela Produto
+- **id_produto (PK)**
+- nome
+- preco
+
+---
+
+## Tabela Item_Pedido
+- **id_item (PK)**
+- **id_pedido (FK)**
+- **id_produto (FK)**
 - Quantidade
 - Subtotal
 
-## Relacionamento
-Um pedido pode conter um ou mais produtos.
+**Relacionamentos:**  
+Pedido (1) —— (N) Item_Pedido  
+Item_Pedido.id_pedido → Pedido.id_pedido  
 
-### ✏️ No final do arquivo, cole:
+Produto (1) —— (N) Item_Pedido  
+Item_Pedido.id_produto → Produto.id_produto
 
-```md
-## Diagrama Entidade-Relacionamento (Visual)
+---
 
-```mermaid
-erDiagram
-    PRODUTO {
-        int id_produto
-        string nome
-        float preco
-    }
+## Resumo dos Relacionamentos
+- Cliente → Pedido (1:N)
+- Pedido → Item_Pedido (1:N)
+- Produto → Item_Pedido (1:N)
 
-    PEDIDO {
-        int id_pedido
-        string itens
-        float total
-        string endereco
-        string forma_pagamento
-        string status
-    }
+```text
+[1,1]                                   [0,N]
++--------------------+          +-------------------------+
+|      CLIENTE       |  1  :  N |          PEDIDO         |
++--------------------+----------+-------------------------+
+| id_cliente (PK)    |          | id_pedido (PK)          |
+| nome               |          | endereco                |
+| telefone           |          | forma_pagamento          |
++--------------------+          | status                  |
+                                | id_cliente (FK)         |
+                                +-------------------------+
+                                          |
+                                          | 1 : N
+                                          |
+                                +-------------------------+
+                                |      ITEM_PEDIDO        |
+                                +-------------------------+
+                                | id_item (PK)            |
+                                | quantidade              |
+                                | subtotal                |
+                                | id_pedido (FK)          |
+                                | id_produto (FK)         |
+                                +-------------------------+
+                                          |
+                                          | N : 1
+                                          |
+                                +-------------------------+
+                                |        PRODUTO          |
+                                +-------------------------+
+                                | id_produto (PK)         |
+                                | nome                    |
+                                | preco                   |
+                                +-------------------------+
+```
 
-    PEDIDO }o--o{ PRODUTO : contem
+                                          
+
+
