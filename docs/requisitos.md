@@ -1,6 +1,5 @@
 <div alig="center">
 <h1> DOCUMENTO DE REQUISITOS <h1>
-<p><strong>Versão 1.0</strong></p>
 <br>
 <h3>Equipe do Projeto</h3>
 <p>
