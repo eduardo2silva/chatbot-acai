@@ -13,6 +13,7 @@
 - endereco
 - forma_pagamento
 - status
+- total
 
 **Relacionamento:**  
 Cliente (1) —— (N) Pedido  
@@ -27,7 +28,7 @@ Pedido.id_cliente → Cliente.id_cliente
 
 ---
 
-## Tabela Item_Pedido
+## pedido_has_produto
 - **id_item (PK)**
 - **id_pedido (FK)**
 - **id_produto (FK)**
@@ -47,42 +48,4 @@ Item_Pedido.id_produto → Produto.id_produto
 - Cliente → Pedido (1:N)
 - Pedido → Item_Pedido (1:N)
 - Produto → Item_Pedido (1:N)
-
-```text
-[1,1]                                   [0,N]
-+--------------------+          +-------------------------+
-|      CLIENTE       |  1  :  N |          PEDIDO         |
-+--------------------+----------+-------------------------+
-| id_cliente (PK)    |          | id_pedido (PK)          |
-| nome               |          | endereco                |
-| telefone           |          | forma_pagamento          |
-+--------------------+          | status                  |
-                                | id_cliente (FK)         |
-                                +-------------------------+
-                                          |
-                                          | 1 : N
-                                          |
-                                +-------------------------+
-                                |      ITEM_PEDIDO        |
-                                +-------------------------+
-                                | id_item (PK)            |
-                                | quantidade              |
-                                | subtotal                |
-                                | id_pedido (FK)          |
-                                | id_produto (FK)         |
-                                +-------------------------+
-                                          |
-                                          | N : 1
-                                          |
-                                +-------------------------+
-                                |        PRODUTO          |
-                                +-------------------------+
-                                | id_produto (PK)         |
-                                | nome                    |
-                                | preco                   |
-                                +-------------------------+
-```
-
-                                          
-
 
