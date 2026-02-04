@@ -49,3 +49,4 @@ Item_Pedido.id_produto → Produto.id_produto
 - Pedido → Item_Pedido (1:N)
 - Produto → Item_Pedido (1:N)
 
+<img width="750" height="458" alt="DER do Bot_Acai (1)" src="https://github.com/user-attachments/assets/7408e5e5-52d5-4b5a-894d-d02a9ba1223e" />
