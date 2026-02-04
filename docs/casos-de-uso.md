@@ -5,7 +5,7 @@
 
 ## Casos de Uso Identificados
 - Visualizar cardápio
-- Selecionar produtos
+- Escolher produtos
 - Informar endereço
 - Escolher forma de pagamento
 - Confirmar pedido
