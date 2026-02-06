@@ -18,4 +18,5 @@
 O cliente interage com o chatbot para realizar pedidos de açaí, desde a visualização do cardápio até a confirmação do pedido. O sistema processa as informações e notifica o estabelecimento.
 ## Diagrama de Casos de Uso (Visual)
 
+<img width="831" height="391" alt="Diagrama de caso de Uso bot drawio" src="https://github.com/user-attachments/assets/8daebfbb-68e0-4b47-b284-5245c8504d88" />
 
