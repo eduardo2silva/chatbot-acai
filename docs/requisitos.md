@@ -5,7 +5,7 @@
 <p>
 Eduardo da silva mugo <br>
 Diego dos santos lopes<br>
-Renato silva rodrigues<br>
+Renato da silva rodrigues<br>
 </p>
 </div>
 <hr>
