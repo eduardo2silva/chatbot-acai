@@ -2,14 +2,15 @@
 
 ## Ator
 - Cliente
-- Proprietário
+- bot
 
 ## Casos de Uso Identificados
 - Exibir cardápio de produtos
 - Escolher produtos
 - Informar endereço de entrega
-- Calcular valor total do pedido e escolher forma de pagamento 
-- Confirmar de pagamento
+- Exibir valor total
+- Escolher forma de pagamento 
+- Confirmar pagamento
 - Registro do pedido
 - Notificar estabelecimento
 
