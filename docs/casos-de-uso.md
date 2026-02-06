@@ -25,7 +25,7 @@ O cliente interage com o chatbot para realizar pedidos de açaí, desde a visual
 ### UC1 – Exibir cardápio de produtos
 O ator **Bot** exibe o cardápio de produtos disponíveis, contendo os tipos de açaí e valores.
 
-### UC2 – Selecionar produtos
+### UC2 – Escolher produtos
 O ator **Cliente** seleciona os produtos do cardápio exibido pelo sistema, escolhendo os itens e quantidades que deseja adicionar ao pedido.
 
 ### UC3 – Informar endereço
@@ -40,7 +40,7 @@ O ator **Cliente** escolhe a forma de pagamento disponível no sistema, como PIX
 ### UC6 – Confirmar pagamento
 O ator **Cliente** confirma o pagamento de acordo com a forma escolhida, permitindo que o sistema prossiga com a finalização do pedido.
 
-### UC7 – Registrar pedido
+### UC7 – Registrar o pedido 
 O ator **Bot** registra o pedido no sistema após a confirmação do pagamento, armazenando todas as informações necessárias, como produtos, endereço e forma de pagamento.
 
 ### UC8 – Notificar estabelecimento
